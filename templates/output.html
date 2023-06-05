@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Output</title>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Output</h1>
+    <pre>
+    {% for line in output_lines %}
+        {{ line }}
+    {% endfor %}
+    </pre>
+</body>
+</html>
